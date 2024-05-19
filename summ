@@ -1,0 +1,11 @@
+def summ(lst):
+    sum = 0
+    for ele in lst:
+        sum += ele
+    print(sum)
+    return (sum)
+
+
+summ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])  # returns 55
+summ([])  # return 0
+summ([-10, -20, -30])  # return -60
